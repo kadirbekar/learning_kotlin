@@ -9,6 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.LearningKotlinSeries">
+        <activity android:name=".LinearLayoutExample">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,11 +25,14 @@
         </activity>
         <activity
             android:name=".StaringToLearnLayout"
-            android:screenOrientation="sensor">
-        </activity>
+            android:screenOrientation="sensor"></activity>
         <activity android:name=".ClassesAndFunctions" />
         <activity android:name=".BasicsOfKotlin" />
         <activity android:name=".CountDownTimerExample" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

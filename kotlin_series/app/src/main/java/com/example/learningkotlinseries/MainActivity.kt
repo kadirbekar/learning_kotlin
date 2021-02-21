@@ -1,12 +1,11 @@
 package com.example.learningkotlinseries
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
 import com.example.learningkotlinseries.oop.ApplicationDeveloper
 import com.example.learningkotlinseries.oop.BusinessAnalyst
-import com.example.learningkotlinseries.oop.Employee
 import com.example.learningkotlinseries.oop.ProjectManager
 
 class MainActivity : AppCompatActivity() {
